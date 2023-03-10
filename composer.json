@@ -1,0 +1,19 @@
+{
+    "name": "fvs/php-composer-library-testing",
+    "description": "Belajar bikin library sendiri di composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fvs\\PhpComposerLibraryTesting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nando118",
+            "email": "fernandoverdysunata0118@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
